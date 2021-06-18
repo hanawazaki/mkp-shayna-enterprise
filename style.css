@@ -1,46 +1,86 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.nav{
-    background-color: #E5E5E5 !important;
+.nav {
+  background-color: #e5e5e5 !important;
 }
 
-.navbar.navbar-expand-lg{
-    margin-left: 90px !important;
-    margin-right: 90px !important;
+.navbar.navbar-expand-lg {
+  margin-left: 90px !important;
+  margin-right: 90px !important;
 }
 
-.navbar-brand{
-    color: #150544 !important;
-    font-size: 32px;
-    font-weight: 600;
+.navbar-brand {
+  color: #150544 !important;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.navbar-nav li{
-    margin-right: 20px;
+.navbar-nav li {
+  margin-right: 20px;
 }
 
-.nav-link{
-    color: #5A6772 !important;
-    font-size: 18px !important;
-    font-weight: 400 !important;
+.nav-link {
+  color: #5a6772 !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
 }
 
-.nav-link:hover{
-    color: #150544 !important;
+.nav-link:hover {
+  color: #150544 !important;
 }
 
-.btn-primary-x{
-    color: #fff;
-    background-color: #150544;
-    padding: 10px 30px 10px 30px;
-    border-radius: 8px;
-    font-size: 18px;
-    font-weight: 500;
+.btn-primary-x {
+  color: #fff;
+  background-color: #150544;
+  padding: 10px 30px 10px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.btn-primary-x:hover{
-    color: #fff;
-    background-color: #200868;
+.btn-primary-x:hover {
+  color: #fff;
+  background-color: #200868;
+}
+
+.features {
+  background-image: url('/img/Union.svg');
+  margin-top: 100px;
+}
+
+.features h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #150544;
+}
+
+.features p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5a6772;
+  margin-bottom: 70px;
+}
+
+.feature-items {
+  margin: 0 50px 0 50px;
+}
+
+.feature-items img {
+  width: 70px;
+}
+
+.feature-items h6 {
+  color: #150544;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.feature-items p {
+  display: inline-block;
+  color: #5a6772;
+  font-size: 16px;
+  font-weight: 300;
+  width: 250px;
 }
