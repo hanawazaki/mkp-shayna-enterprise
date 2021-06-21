@@ -46,7 +46,7 @@ body {
 }
 
 .features {
-  background-image: url('/img/Union.svg');
+  background-image: url("/img/Union.svg");
   margin-top: 100px;
 }
 
@@ -83,4 +83,187 @@ body {
   font-size: 16px;
   font-weight: 300;
   width: 250px;
+}
+
+.packages {
+  margin-top: 100px;
+}
+
+.package-title {
+  margin-bottom: 70px;
+}
+
+.package-title h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #150544;
+  margin-bottom: 8px;
+}
+
+.package-title p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #5a6772;
+}
+
+.package-cards {
+  background-color: #fff;
+}
+
+.card {
+  margin: 0 25px 0 25px !important;
+  border: none !important;
+  width: 20rem !important;
+}
+
+.card-body {
+  padding: 10px 30px 10px 30px !important;
+}
+
+.package-cards .card-body {
+  border-radius: 11px;
+  vertical-align: bottom;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+.package-cards .card-body:hover {
+  cursor: pointer;
+  /* box-shadow : 0px 4px 30px rgba(0, 0, 0, 0.05); */
+}
+
+.package-cards .first-text {
+  font-size: 52px;
+  font-weight: 800;
+  color: #150544;
+}
+
+.package-cards .second-text,
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #150544;
+}
+
+.line-card {
+  margin: 30px 0 30px 0;
+  border: 1.5px solid #dfe2e4;
+}
+
+.list-packages {
+  margin-bottom: 40px;
+}
+
+.list-packages div {
+  font-size: 16px;
+  font-weight: 500;
+  color: #150544;
+  list-style: none;
+  margin-bottom: 22px;
+}
+
+.list-packages img {
+  width: 26px;
+  margin-right: 22px;
+}
+
+.btn {
+  white-space: nowrap !important;
+}
+
+.btn-secondary {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 81px 12px 81px !important;
+  background-color: #6552ff !important;
+  color: #fff;
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 81px 12px 81px !important;
+  background-color: #150544 !important;
+  color: #fff;
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.content {
+  background-image: url("/img/Rectangle\ 4.png");
+  background-size: 100% 70%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.package-cards button {
+  margin-bottom: 40px;
+}
+
+.terms-condition {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.terms-condition h4 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #150544;
+  margin-bottom: 16px;
+}
+
+.terms-condition h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #150544;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+/* Section Quote */
+.quote {
+  background-color: #150544;
+  background-image: url("/img/Union2.png");
+  text-align: center;
+}
+
+.quote-text {
+  padding: 120px 295px 50px 295px;
+  vertical-align: top;
+}
+
+.quote-text .marker {
+  font-size: 100px;
+  font-weight: 400;
+  color: #6552ff;
+}
+
+.quote-text .sentences {
+  width: 758px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 54px;
+  color: #fff;
+}
+
+.quote-user {
+  padding-bottom: 70px;
+}
+
+.quote-user img {
+  width: 100px;
+  margin-bottom: 16px;
+}
+
+.quote-user h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.quote-user p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
 }
